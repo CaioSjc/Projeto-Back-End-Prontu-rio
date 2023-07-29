@@ -14,8 +14,9 @@ app.use(express.json())
     
     await initializeDatabase(); 
 
-    app.listen(process.env.PORT || 3000, () => {
-      console.log(`App is listening on port: ${process.env.PORT || 3000}`);
+    const port = process.env.PORT || 3000;
+    app.listen(+port, "0.0.0.0",() => {
+      console.log(`App is listening on port: ${+port}`);
     });
   })();
 
