@@ -55,6 +55,6 @@ npm run test '+nome do arquivo rodado entre aspas'
 
 ##URL do Deploy
 
-Para o deploy foi utilizado a platafroma [render](https://render.com/).
+Para o deploy foi utilizado a plataforma [render](https://render.com/).
 
 [URL BASE](https://projeto-back-end-prontuario.onrender.com/).
